@@ -1,0 +1,182 @@
+html, body {
+    font-family: "Sedan", serif;
+    color: #fefeff;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.arrows {
+    width: 100px;
+    height: 122px;
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 0px;
+    top: 80%;
+    bottom: 0%;
+    opacity: 0;
+}
+
+.arrows path {
+    stroke: #fefeff;
+    fill: transparent;
+    stroke-width: 3px;  
+    animation: arrow 2s infinite;
+    -webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+}
+
+@-webkit-keyframes arrow 
+{
+    0% {opacity:0}
+    40% {opacity:1}
+    80% {opacity:0}
+    100% {opacity:0}
+}
+
+.arrows path.a1 {
+    animation-delay:-1s;
+    -webkit-animation-delay:-1s; 
+}
+
+.arrows path.a2 {
+    animation-delay:-0.5s;
+    -webkit-animation-delay:-0.5s; 
+}
+
+.arrows path.a3 { 
+    animation-delay:0s;
+    -webkit-animation-delay:0s;
+}
+
+canvas {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 0;
+}
+
+p {
+    position: absolute;
+    top:40%;
+    left: 50px;
+    right: 50px;
+    text-align: center;
+    font-family: "Sedan", serif;
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: 0.30em;
+}
+
+[class^="letter"] {
+    -webkit-transition: opacity 3s ease;
+    -moz-transition: opacity 3s ease;
+    transition: opacity 3s ease;
+}
+
+.letter-0 {
+    transition-delay: 0.2s;
+}
+
+.letter-1 {
+    transition-delay: 0.3s;
+}
+
+.letter-2 {
+    transition-delay: 0.4s;
+}
+
+.letter-3 {
+    transition-delay: 0.5s;
+}
+
+.letter-4 {
+    transition-delay: 0.6s;
+}
+
+.letter-5 {
+    transition-delay: 0.7s;
+}
+
+.letter-6 {
+    transition-delay: 0.8s;
+}
+
+.letter-7 {
+    transition-delay: 0.9s;
+}
+
+.letter-8 {
+    transition-delay: 1.0s;
+}
+
+h1 {
+    visibility: hidden;
+    position: absolute;
+    top: 15%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-size: 70px;
+    letter-spacing: 0.35em;
+    text-shadow: 5px 3px #a6a6a6;
+}
+
+h1.transition-in {
+    visibility: visible;
+}
+
+h1 [class^="letter"] {
+    opacity: 0;
+}
+
+h1.transition-in [class^="letter"] {
+    opacity: 1;
+}
+
+h2 {
+    display: none;
+}
+
+.laptop-text {
+    display: none;
+}
+
+@media all and (max-width:800px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 30px;
+        left: 30px;
+        right: 30px;
+    }
+}
+
+@media all and (max-width:500px) {
+    h1 {
+        font-size: 40px;
+        text-shadow: 3px 2px #a6a6a6;
+    }
+
+    p {
+        font-size: 22px;
+        left: 12px;
+        right: 12px;
+    }
+}

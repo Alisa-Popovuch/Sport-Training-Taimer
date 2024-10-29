@@ -1,0 +1,214 @@
+body {
+    background-color: black;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Sedan", serif;
+    color: white;
+    font-size: 40px;
+}
+
+#text {
+    text-align: center;
+    font-family: "Sedan", serif;
+    color: white;
+    font-size: 30px;
+}
+
+#countdown {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 25px;
+}
+
+.play {
+    width: 100px;
+    height: 100px;
+    background-image: url(play.png);
+    background-size: contain;
+    background-color: #bfbfc1;
+    border-radius: 20px;
+    border: none;
+}
+
+#time {
+    text-align: center;
+    font-family: "Sedan", serif;
+    color: white;
+    font-size: 50px;
+}
+
+#firstContainer, #thirdContainer, #sixContainer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+#textFirst, #textThird, #textFour, #textFive, #textSix {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: "Sedan", serif;
+    color: white;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+#videoFirst, #videoThird, #videoSix {
+    width: 450px;
+}
+
+#secondExercise, #fourExercise, #fiveExercise {
+    display: flex;
+    justify-content: center;
+}
+
+#secondContainer, #fourContainer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 600px;
+    margin-top: 20px;
+}
+
+#fiveContainer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 420px;
+    margin-bottom: 80px;
+}
+
+#textSecond {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Sedan", serif;
+    color: white;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+#videoSecond, #videoFour, #videoFive {
+    width: 700px;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Sedan", serif;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+@media all and (max-width:800px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    #text {
+        font-size: 25px;
+    }
+
+    #videoFirst, #videoThird, #videoSix {
+        width: 350px;
+    }
+
+    #firstContainer, #thirdContainer, #sixContainer {
+        flex-direction: column;
+    }
+
+    #secondContainer {
+        flex-direction: column;
+        height: 800px;
+    }
+
+    #fourContainer {
+        flex-direction: column;
+    }
+
+    #fiveContainer {
+        flex-direction: column;
+        height: 500px;
+    }
+
+    #fistExercises, #thirdExercise, #sixExercise {
+        display: flex;
+        justify-content: center;
+    }
+
+    #videoSecond, #videoFour, #videoFive {
+        width: 500px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width:500px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    #text {
+        font-size: 22px;
+    }
+
+    #music {
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+
+    .play {
+        width: 60px;
+        height: 60px;
+    }
+
+    #time {
+        font-size: 27px;
+    }
+
+    #countdown {
+        width: 50%;
+    }
+
+    #videoFirst, #videoThird, #videoSix {
+        width: 250px;
+    }
+
+    #videoSecond, #videoFour, #videoFive {
+        width: 350px;
+    }
+
+    #textFirst, #textSecond, #textThird, #textFour, #textFive, #textSix {
+    font-size: 20px;
+    margin-left: 0px;
+    }
+
+    #secondContainer {
+        height: 900px;
+    }
+
+    #fiveContainer {
+        height: 580px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}

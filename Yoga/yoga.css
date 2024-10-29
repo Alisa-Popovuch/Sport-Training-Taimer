@@ -1,0 +1,153 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Sedan", serif;
+    color: white;
+    font-size: 40px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    padding: 25px;
+}
+
+#text, #second {
+    font-family: "Sedan", serif;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+#time {
+    font-family: "Sedan", serif;
+    color: #bfbfc1;
+    font-size: 50px;
+    text-align: center;
+}
+
+#music {
+    background-color: #bfbfc1;
+    border-radius: 20px;
+    border: none;
+}
+
+.play {
+    width: 100px;
+    height: 100px;
+    background-image: url(play.png);
+    background-size: contain;
+}
+
+.pause {
+    background-image: url(pause.png);
+}
+
+#firstContainer, #thirdContainer, #secondContainer {
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+#fistExercises, #sixExercise {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+#videoFour, #videoFive {
+    width: 600px;
+    margin: 10px;
+}
+
+@media all and (max-width:800px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    #text, #second {
+        font-size: 20px;
+    }
+
+    #videoFirst, #videoSecond, #videoSix, #videoSeven {
+        width: 350px;
+    }
+
+    #videoThird, #videoEight {
+        width: 280px;
+    }
+
+    #videoFour, #videoFive {
+        width: 320px;
+    }
+
+    .play {
+        width: 70px;
+        height: 70px;
+    }
+
+    #time {
+        font-size: 37px;
+    }
+
+    #countdown {
+        width: 40%;
+    }
+}
+
+@media all and (max-width:500px) {
+    h1 {
+        font-size: 27px;
+    }
+    #firstContainer, #secondContainer, #thirdContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #videoFour, #videoFive {
+        width: 350px;
+    }
+
+    #fistExercises, #sixExercise {
+        margin: 0;
+    }
+
+    #videoFour, #videoFive {
+        margin: 0;
+    }
+
+    #videoThird, #videoEight {
+        width: 250px;
+    }
+
+    #eightExercise, #secondExercises {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .play {
+        width: 60px;
+        height: 60px;
+    }
+
+    #time {
+        font-size: 33px;
+    }
+
+    #countdown {
+        width: 50%;
+    }
+}
+
+
+
+
+
+

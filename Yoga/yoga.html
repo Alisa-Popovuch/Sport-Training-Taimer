@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga training 🧘</title>
+    <link rel="stylesheet" href="yoga.css">
+    <link rel = "icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Do our exercises every day and within a month you will see the results.</h1>
+    <p id="text">To make your workout more effective, you can use our music selection and time countdown.</p>
+    <div id="countdown">
+        <button id="music" class="play"></button>
+        <audio id="player" loop="loop">
+            <source src="music.mp3" type="audio/mp3">
+        </audio>
+        <p id="time">30:00</p>
+    </div>
+    <div id="firstContainer">
+        <div id="fistExercises">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoFirst" width="720px">
+                <source src="1.mp4" type="video/mp4">
+            </video>
+            <p id="second">Perform the exercise 20 times on each hand.</p>
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoSecond" width="720px">
+                <source src="2.mp4" type="video/mp4">
+            </video>
+            <p id="second">Start stretching with 1 minute and gradually increase the time.</p>
+        </div>
+        <div id="secondExercises">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoThird" width="495px">
+                <source src="3.mp4" type="video/mp4">
+            </video>
+            <p id="second">Perform smooth turns, 20 times in each direction.</p>
+        </div>
+    </div>
+    <div id="secondContainer">
+        <div id="fourExercise">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoFour">
+                <source src="4.mp4" type="video/mp4">
+            </video>
+            <p id="second">Perform the exercise 20 times on each leg.</p>
+        </div>
+        <div id="fiveExercise">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoFive">
+                <source src="5.mp4" type="video/mp4">
+            </video>
+            <p id="second">Start stretching with 1 minute and gradually increase the time.</p>
+        </div>
+    </div>
+    <div id="thirdContainer">
+        <div id="sixExercise">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoSix" width="720px">
+                <source src="6.mp4" type="video/mp4">
+            </video>
+            <p id="second">Repeat the exercise 15 times, extending forward and backward as much as possible.</p>
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoSeven" width="720px">
+                <source src="7.mp4" type="video/mp4">
+            </video>
+            <p id="second">Relax, repeat the exercise while standing on each leg for 30 seconds.</p>
+        </div>
+        <div id="eightExercise">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoEight" width="510px">
+                <source src="8.mp4" type="video/mp4">
+            </video>
+            <p id="second">Try repeating the exercise. If you don’t succeed the first time, don’t be discouraged, you will gradually get there by repeating our exercises.</p>
+        </div>
+    </div>
+    <script src="yoga.js"></script>
+</body>
+</html>

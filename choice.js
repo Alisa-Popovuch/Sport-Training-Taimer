@@ -1,0 +1,6 @@
+gsap.from('#weightLoss', {delay:1, duration:3, x:-400, ease:'power2.inOut', opacity:0})
+gsap.from('#box', {delay:1, duration:3, x:400, ease:'power2.inOut', opacity:0})
+gsap.from('#yoga', {delay:3, duration:3, x:-400, ease:'power2.inOut', opacity:0})
+gsap.from('#pregnant', {delay:3, duration:3, x:400, ease:'power2.inOut', opacity:0})
+gsap.from('#hotDance', {delay:5, duration:3, x:-400, ease:'power2.inOut', opacity:0})
+gsap.from('#hipHop', {delay:5, duration:3, x:400, ease:'power2.inOut', opacity:0})

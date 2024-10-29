@@ -1,0 +1,87 @@
+body {
+    background-color: #000000;
+}
+
+#containerFirst, #containerSecond, #containerThird {
+    display: flex;
+    justify-content: center;
+}
+
+#weightLoss, #box, #yoga, #pregnant, #hotDance, #hipHop {
+    position: relative;
+    width: 45%;
+    margin: 1%;
+}
+
+.weightImg, .boxImg, .yogaImg, .pregnantImg, .hotDanceImg, .hipHopImg {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+#weightDiv, #boxDiv, #yogaDiv, #pregnantDiv, #hotDanceDiv, #hipHopDiv {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    height: 70px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#weightLoss:hover .weightImg, #box:hover .boxImg, #yoga:hover .yogaImg, #pregnant:hover .pregnantImg, #hotDance:hover .hotDanceImg, #hipHop:hover .hipHopImg {
+    opacity: 0.3;
+}
+
+#weightLoss:hover #weightDiv, #box:hover #boxDiv, #yoga:hover #yogaDiv, #pregnant:hover #pregnantDiv, #hotDance:hover #hotDanceDiv, #hipHop:hover #hipHopDiv {
+    opacity: 1;
+}
+
+.weightA, .boxA, .yogaA, .pregnantA, .hotDanceA, .hipHopA {
+    background-color: #a6a6a6;
+    font-size: 30px;
+    color: #000000;
+    font-family: "Sedan", serif;
+    padding: 16px 32px;
+}
+
+a:hover {
+    color: white;
+}
+
+#laptop {
+    display: none;
+}
+
+@media all and (max-width:800px) {
+
+    #weightDiv, #boxDiv, #yogaDiv, #pregnantDiv, #hotDanceDiv, #hipHopDiv {
+        width: 350px;
+        height: 50px;
+    }
+
+    .weightA, .boxA, .yogaA, .pregnantA, .hotDanceA, .hipHopA {
+        font-size: 25px;
+    }
+}
+
+@media all and (max-width:500px) {
+    #containerFirst {
+        margin-top: 30px;
+    }
+
+    #containerFirst, #containerSecond, #containerThird {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #weightLoss, #box, #yoga, #pregnant, #hotDance, #hipHop {
+        width: 80%;
+        margin: 4%;
+    }
+}

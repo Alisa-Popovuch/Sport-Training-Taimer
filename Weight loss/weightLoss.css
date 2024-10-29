@@ -1,0 +1,140 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Sedan", serif;
+    color: white;
+    font-size: 40px;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    padding: 25px;
+}
+
+#text {
+    font-family: "Sedan", serif;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+#time {
+    font-family: "Sedan", serif;
+    color: #bfbfc1;
+    font-size: 50px;
+    text-align: center;
+}
+
+#first, #second, #third {
+    font-family: "Sedan", serif;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+#firstContainer, #secondContainer, #thirdContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#secondExercises {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#fourExercise, #fiveExercise, #sixExercise, #sevenExercise {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    margin: 10px;
+}
+
+#music {
+    background-color: #bfbfc1;
+    border-radius: 20px;
+    border: none;
+}
+
+.play {
+    width: 100px;
+    height: 100px;
+    background-image: url(play.png);
+    background-size: contain;
+}
+
+.pause {
+    background-image: url(pause.png);
+}
+
+@media all and (max-width:800px) {
+    #firstContainer, #secondContainer, #thirdContainer {
+        flex-direction: column;
+    }
+
+    #videoFirst {
+        width: 350px;
+    }
+
+    #fistExercises, #secondExercises {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #videoSecond, #videoThird, #videoFour, #videoFive, #videoSix, #videoSeven {
+        width: 500px;
+    }
+
+    #fourExercise, #fiveExercise, #sixExercise, #sevenExercise {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin-left: 30px;
+    }
+}
+
+@media all and (max-width:500px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    #text {
+        font-size: 22px;
+    }
+
+    .play {
+        width: 60px;
+        height: 60px;
+    }
+
+    #time {
+        font-size: 27px;
+    }
+
+    #countdown {
+        width: 50%;
+    }
+
+    #videoFirst {
+        width: 250px;
+    }
+
+    #videoSecond, #videoThird, #videoFour, #videoFive, #videoSix, #videoSeven {
+        width: 300px;
+    }
+
+    #first, #second, #third {
+        font-size: 20px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight loss training 💪</title>
+    <link rel="stylesheet" href="weightLoss.css">
+    <link rel = "icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Do our exercises every day and within a month you will see the results.</h1>
+    <p id="text">To make your workout more effective, you can use our music selection and time countdown.</p>
+    <div id="countdown">
+        <button id="music" class="play"></button>
+        <audio id="player" loop="loop">
+            <source src="music.mp3" type="audio/mp3">
+        </audio>
+        <p id="time">30:00</p>
+    </div>
+    <div id="firstContainer">
+        <div id="fistExercises">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoFirst" width="500px">
+                <source src="1.mp4" type="video/mp4">
+            </video>
+            <p id="first">Perform the exercise 15 times on each leg.</p>
+        </div>
+        <div id="secondExercises">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoSecond" width="725px">
+                <source src="2.mp4" type="video/mp4">
+            </video>
+            <p id="second">Perform the exercise 30 times.</p>
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoThird" width="725px">
+                <source src="3.mp4" type="video/mp4">
+            </video>
+            <p id="third">Start with 1 minute, add 10 seconds every day until we reach 5 minutes.</p>
+        </div>
+    </div>
+    <div id="secondContainer">
+        <div id="fourExercise">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoFour">
+                <source src="4.mp4" type="video/mp4">
+            </video>
+            <p id="second">Start with a weight of 1 kg, alternate on each arm, repeat the exercise 15 times on each side.</p>
+        </div>
+        <div id="fiveExercise">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoFive">
+                <source src="5.mp4" type="video/mp4">
+            </video>
+            <p id="second">Perform the exercise 15 times on each leg.</p>
+        </div>
+    </div>
+    <div id="thirdContainer">
+        <div id="sixExercise">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoSix">
+                <source src="6.mp4" type="video/mp4">
+            </video>
+            <p id="second">Start with a weight of 1 kg, repeat the exercise 15 times on each hand.</p>
+        </div>
+        <div id="sevenExercise">
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="videoSeven">
+                <source src="7.mp4" type="video/mp4">
+            </video>
+            <p id="second">Perform the exercise 30 times.</p>
+        </div>
+    </div>
+    <script src="weightLoss.js"></script>
+</body>
+</html>
