@@ -12,6 +12,9 @@
 <p align="center">
   <img src="sport-training.gif" alt="Sport Training Timer Demo" width="700">
 </p>
+<p align="center">
+  <em>Demonstration: select training, start timer, stop/reset</em>
+</p>
   
 <div id="header" align="center">
   <img src="https://komarev.com/ghpvc/?username=Alisa-Popovuch&style=flat-square&color=grey" alt="" width="130px"/>
@@ -96,6 +99,9 @@ Dieses Projekt kann zu Lern- und Übungszwecken verwendet werden.
 
 <p align="center">
   <img src="sport-training.gif" alt="Sport Training Timer Demo" width="700">
+</p>
+<p align="center">
+  <em>Demonstration: select training, start timer, stop/reset</em>
 </p>
 
 ---
