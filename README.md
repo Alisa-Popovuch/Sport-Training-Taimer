@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="sport-training-demo.gif" alt="Sport Training Timer Demo" width="700">
+  <img src="sport-training.gif" alt="Sport Training Timer Demo" width="700">
 </p>
   
 <div id="header" align="center">
@@ -95,7 +95,7 @@ Dieses Projekt kann zu Lern- und Übungszwecken verwendet werden.
 </p>
 
 <p align="center">
-  <img src="sport-training-demo.gif" alt="Sport Training Timer Demo" width="700">
+  <img src="sport-training.gif" alt="Sport Training Timer Demo" width="700">
 </p>
 
 ---
